@@ -1,0 +1,24 @@
+// Reset Base CSS Style
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+// Mixin CSS Code
+@mixin flexcenter {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+}
