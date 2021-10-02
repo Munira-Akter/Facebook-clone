@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 .container {
-  width: 110rem; }
+  width: 98rem;
+  margin: 0 auto; }
 
 .container-fluid {
   width: 98%; }
@@ -22,3 +24,82 @@ li {
 html {
   font-size: 62.5%;
   box-sizing: border-box; }
+
+* {
+  font-family: "Lato", sans-serif; }
+
+.facebook-sign {
+  background-color: #f3f3f5;
+  padding-top: 12.7rem;
+  padding-bottom: 20rem; }
+  .facebook-sign .auth {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    .facebook-sign .auth .fb-logo {
+      position: relative;
+      transform: translate(-3rem, 1rem);
+      height: 10rem; }
+    .facebook-sign .auth .slogan {
+      font-size: 2.8rem;
+      font-weight: normal;
+      line-height: 3.2rem;
+      width: 50rem; }
+    .facebook-sign .auth .sign-box {
+      background-color: #fff;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      padding: 1rem 2rem;
+      border-radius: 0.6rem;
+      text-align: center;
+      width: 39.6rem; }
+      .facebook-sign .auth .sign-box .sign__form {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1rem; }
+        .facebook-sign .auth .sign-box .sign__form .sign__input {
+          border: 1px solid #dddfe2;
+          background: #fff;
+          color: #1d2129;
+          border-radius: 6px;
+          line-height: 1.6rem;
+          padding: 1.3rem;
+          font-size: 1.6rem; }
+        .facebook-sign .auth .sign-box .sign__form .sign__button {
+          background: #0084ff;
+          color: #fff;
+          border: none;
+          border-radius: 0.6rem;
+          line-height: 4.8rem;
+          font-size: 2rem;
+          font-weight: bold;
+          margin-bottom: 1rem; }
+      .facebook-sign .auth .sign-box .sign__forget {
+        transition: 0.5s;
+        font-size: 1.4rem;
+        color: #0084ff;
+        font-weight: 500; }
+        .facebook-sign .auth .sign-box .sign__forget:hover {
+          text-decoration: underline; }
+      .facebook-sign .auth .sign-box .sign__divider {
+        border: none;
+        border-bottom: 1px solid #dadde1;
+        margin: 2rem 1.6rem; }
+      .facebook-sign .auth .sign-box .sign__create-account {
+        background: #35a420;
+        color: #fff;
+        padding: 1.4rem 1.6rem;
+        font-size: 1.6rem;
+        border-radius: 0.6rem;
+        align-self: center;
+        display: inline-block;
+        margin-bottom: 2rem; }
+    .facebook-sign .auth .create-page {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      color: #1c1e21; }
+      .facebook-sign .auth .create-page .text-bold {
+        font-weight: bold; }
